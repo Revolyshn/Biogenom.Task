@@ -1,0 +1,10 @@
+CREATE TABLE "NutritionAssessments" (
+    Id SERIAL PRIMARY KEY,
+    DateCompleted TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    VitaminC DECIMAL(10,2) NOT NULL,
+    VitaminD DECIMAL(10,2) NOT NULL,
+    Water DECIMAL(10,2) NOT NULL,
+    Zinc DECIMAL(10,2) NOT NULL,
+    Energy DECIMAL(10,2) NOT NULL,
+    Recommendations TEXT NOT NULL
+);
